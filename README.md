@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @sofyanhanifduri
+- 👋 Hi, I’m @sofyanhanif
 - 👀 I’m interested in Network Engineer 
 - 🌱 I’m currently learning linux server
 - 💞️ I’m looking to collaborate on programmer for implementation deploy a project to local server and then we go to up this project in cloud for acces to public

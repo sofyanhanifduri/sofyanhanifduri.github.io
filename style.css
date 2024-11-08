@@ -1,0 +1,151 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+#main-header {
+    background: #333;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#main-header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#main-header nav ul li {
+    margin: 0 15px;
+}
+
+#main-header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.intro h2 {
+    font-size: 2em;
+}
+
+.intro span {
+    color: #e8491d;
+}
+
+.intro p {
+    margin: 15px 0;
+}
+
+.btn {
+    background: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+/* About Section */
+#about {
+    padding: 2em;
+    background: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 15px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 2em;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.portfolio-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 1em;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.portfolio-item h3 {
+    margin: 15px 0 10px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2em;
+    background: #fff;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: auto;
+}
+
+#contact label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#contact button {
+    margin-top: 15px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 20px;
+}
